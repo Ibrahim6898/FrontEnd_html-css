@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+//Declares the html type and version of the HTML being used
+<html lang="en">
+//This is the opening tag for the html document. The 'lang' attribute specifies the lang of the document(English in this case).
+<head>
+//This marks the beginning of the head section, which contains metadata about the document.
+	<meta charset="UTF-8">
+	//This line sets the character encoding of the document to UTF-8, which includes a wide range of characters.
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	//This meta tag sets the viewport for responsive design. It ensures that the webpage adapts to different screen sizes and devices.
+	<title>Ibrahim Yakubu Ahmad Personal Bio</title>
+	//Sets the title of the webpage, displayed in the browser tab.
+	<style>
+	//This marks the beginning of the inline CSS section for styling the page.
+	body{
+	//This selects the entire body of the page for styling.
+		font-family: Arial, sans-serif;
+		//Sets the font family for the entire text to Ariel or a generic sans-serif font.
+		margin: 0;
+		padding: 0;
+		//These lines remove any default margin and padding from the body, providing a clean slate for styling.
+		background-color: #f7f7f7;
+		//Sets background color of the body to a light gray shade.
+		text-align: center;
+		//Aligns the text to center
+		padding: 1rem; //This makes the size of the root element to 16pexel.
+	    }
+	.container{
+	//Used to to style the <div> element with the class "container".
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 2rem;
+                  }
+	.profilie-img{
+	//Used to style the <img> element that represents the profile image.
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			margin: 0 auto; //Sets the top and bottom margin to 0 and automatically centers the container horizontally using 'auto' for left and right margin.
+			display: block;
+                     }
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Ibrahim Yakubu Ahmad</h1>
+		<p>Welcome to my personal bio page</p>
+	</header>
+	<div class="container"> //Defines a container for the main content of the page.
+	     <img class="profile-img"
+	     src="profile-image.jpg" alt="Ibrahim Yakubu Ahmad">
+	     //Adds an image element with the class "profile-img", using the specified profile image filename and providing and alt attribute for accessibility.
+		<h2>About Me</h2>
+		<p>Hello! I'm Ibrahim Yakubu Ahmad. I'm passionate about frontend development. I believe that with  hardwork and focus, the future shall be brigh. In my free time, I enjoy learning new things about life. Feel free to reach out to me at ibrahimyakubuahmad54@gmail.com.</p>
+	</div>
+</body>
